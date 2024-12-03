@@ -1,0 +1,73 @@
+{
+"problems": [
+{
+    "number": 8,
+    "title": "String to Integer (atoi)",
+    "difficulty": "Medium",
+    "description": "Implement the myAtoi(string s) function, which converts a string to a 32-bit signed integer. The algorithm for myAtoi(string s) is as follows: 1. Whitespace: Ignore any leading whitespace (\" \"). 2. Signedness: Determine the sign by checking if the next character is '-' or '+', assuming positivity if neither present. 3. Conversion: Read the integer by skipping leading zeros until a non-digit character is encountered or the end of the string is reached. If no digits were read, then the result is 0. 4. Rounding: If the integer is out of the 32-bit signed integer range [-2^31, 2^31 - 1], then round the integer to remain in the range. Specifically, integers less than -2^31 should be rounded to -2^31, and integers greater than 2^31 - 1 should be rounded to 2^31 - 1. Return the integer as the final result.",
+    "examples": [
+      {
+        "input": "s = \"42\"",
+        "output": "42",
+        "explanation": "Step 1: \"42\" (no characters read because there is no leading whitespace)\nStep 2: \"42\" (no characters read because there is neither a '-' nor '+')\nStep 3: \"42\" (\"42\" is read in)"
+      },
+      {
+        "input": "s = \" -042\"",
+        "output": "-42",
+        "explanation": "Step 1: \" -042\" (leading whitespace is read and ignored)\nStep 2: \" -042\" ('-' is read, so the result should be negative)\nStep 3: \" -042\" (\"042\" is read in, leading zeros ignored in the result)"
+      },
+      {
+        "input": "s = \"1337c0d3\"",
+        "output": "1337",
+        "explanation": "Step 1: \"1337c0d3\" (no characters read because there is no leading whitespace)\nStep 2: \"1337c0d3\" (no characters read because there is neither a '-' nor '+')\nStep 3: \"1337c0d3\" (\"1337\" is read in; reading stops because the next character is a non-digit)"
+      },
+      {
+        "input": "s = \"0-1\"",
+        "output": "0",
+        "explanation": "Step 1: \"0-1\" (no characters read because there is no leading whitespace)\nStep 2: \"0-1\" (no characters read because there is neither a '-' nor '+')\nStep 3: \"0-1\" (\"0\" is read in; reading stops because the next character is a non-digit)"
+      },
+      {
+        "input": "s = \"words and 987\"",
+        "output": "0",
+        "explanation": "Reading stops at the first non-digit character 'w'."
+      }
+    ],
+    "constraints": [
+      "0 <= s.length <= 200",
+      "s consists of English letters (lower-case and upper-case), digits (0-9), ' ', '+', '-', and '.'"
+    ],
+    "function_signatures": {
+      "python": "def myAtoi(self, s: str) -> int:",
+      "java": "public int myAtoi(String s) {",
+      "cpp": "int myAtoi(string s) {"
+    }
+  },
+  {
+    "number": 29,
+    "title": "Divide Two Integers",
+    "difficulty": "Medium",
+    "description": "Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator. The integer division should truncate toward zero, which means losing its fractional part. For example, 8.345 would be truncated to 8, and -2.7335 would be truncated to -2. Return the quotient after dividing dividend by divisor. Note: Assume we are dealing with an environment that could only store integers within the 32-bit signed integer range: [-2^31, 2^31 - 1]. For this problem, if the quotient is strictly greater than 2^31 - 1, then return 2^31 - 1, and if the quotient is strictly less than -2^31, then return -2^31.",
+    "examples": [
+      {
+        "input": "dividend = 10, divisor = 3",
+        "output": "3",
+        "explanation": "10/3 = 3.33333.. which is truncated to 3."
+      },
+      {
+        "input": "dividend = 7, divisor = -3",
+        "output": "-2",
+        "explanation": "7/-3 = -2.33333.. which is truncated to -2."
+      }
+    ],
+    "constraints": [
+      "-2^31 <= dividend, divisor <= 2^31 - 1",
+      "divisor != 0"
+    ],
+    "function_signatures": {
+      "python": "def divide(self, dividend: int, divisor: int) -> int:",
+      "java": "public int divide(int dividend, int divisor) {",
+      "cpp": "int divide(int dividend, int divisor) {"
+    }
+  }
+]
+}

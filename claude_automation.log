@@ -1,0 +1,412 @@
+2024-11-30 15:16:53,466 - INFO - Found 10 problems in the dataset
+2024-11-30 15:16:53,466 - INFO - Processing problem 2423...
+2024-11-30 15:16:53,466 - INFO - Generating solution for problem 2423 in python
+2024-11-30 15:16:53,466 - INFO - Making API call for problem 2423 in python (Attempt 1/5)
+2024-11-30 15:17:18,311 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:17:18,321 - INFO - Successfully saved solution for problem 2423 in python
+2024-11-30 15:17:23,322 - INFO - Generating solution for problem 2423 in java
+2024-11-30 15:17:23,322 - INFO - Making API call for problem 2423 in java (Attempt 1/5)
+2024-11-30 15:17:47,598 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:17:47,604 - INFO - Successfully saved solution for problem 2423 in java
+2024-11-30 15:17:52,605 - INFO - Generating solution for problem 2423 in cpp
+2024-11-30 15:17:52,606 - INFO - Making API call for problem 2423 in cpp (Attempt 1/5)
+2024-11-30 15:18:19,554 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:18:19,559 - INFO - Successfully saved solution for problem 2423 in cpp
+2024-11-30 15:18:24,560 - INFO - Processing problem 2591...
+2024-11-30 15:18:24,561 - INFO - Generating solution for problem 2591 in python
+2024-11-30 15:18:24,561 - INFO - Making API call for problem 2591 in python (Attempt 1/5)
+2024-11-30 15:18:47,300 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:18:47,305 - INFO - Successfully saved solution for problem 2591 in python
+2024-11-30 15:18:52,306 - INFO - Generating solution for problem 2591 in java
+2024-11-30 15:18:52,307 - INFO - Making API call for problem 2591 in java (Attempt 1/5)
+2024-11-30 15:19:19,146 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:19:19,151 - INFO - Successfully saved solution for problem 2591 in java
+2024-11-30 15:19:24,153 - INFO - Generating solution for problem 2591 in cpp
+2024-11-30 15:19:24,153 - INFO - Making API call for problem 2591 in cpp (Attempt 1/5)
+2024-11-30 15:19:55,478 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:19:55,484 - INFO - Successfully saved solution for problem 2591 in cpp
+2024-11-30 15:20:00,486 - INFO - Processing problem 1909...
+2024-11-30 15:20:00,486 - INFO - Generating solution for problem 1909 in python
+2024-11-30 15:20:00,487 - INFO - Making API call for problem 1909 in python (Attempt 1/5)
+2024-11-30 15:20:19,462 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:20:19,468 - INFO - Successfully saved solution for problem 1909 in python
+2024-11-30 15:20:24,469 - INFO - Generating solution for problem 1909 in java
+2024-11-30 15:20:24,469 - INFO - Making API call for problem 1909 in java (Attempt 1/5)
+2024-11-30 15:20:50,695 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:20:50,712 - INFO - Successfully saved solution for problem 1909 in java
+2024-11-30 15:20:55,713 - INFO - Generating solution for problem 1909 in cpp
+2024-11-30 15:20:55,713 - INFO - Making API call for problem 1909 in cpp (Attempt 1/5)
+2024-11-30 15:21:17,113 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:21:17,126 - INFO - Successfully saved solution for problem 1909 in cpp
+2024-11-30 15:21:22,128 - INFO - Processing problem 2660...
+2024-11-30 15:21:22,131 - INFO - Generating solution for problem 2660 in python
+2024-11-30 15:21:22,131 - INFO - Making API call for problem 2660 in python (Attempt 1/5)
+2024-11-30 15:25:26,336 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:25:26,353 - INFO - Successfully saved solution for problem 2660 in python
+2024-11-30 15:25:31,355 - INFO - Generating solution for problem 2660 in java
+2024-11-30 15:25:31,355 - INFO - Making API call for problem 2660 in java (Attempt 1/5)
+2024-11-30 15:25:58,450 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:25:58,456 - INFO - Successfully saved solution for problem 2660 in java
+2024-11-30 15:26:03,457 - INFO - Generating solution for problem 2660 in cpp
+2024-11-30 15:26:03,457 - INFO - Making API call for problem 2660 in cpp (Attempt 1/5)
+2024-11-30 15:26:29,963 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:26:29,966 - INFO - Successfully saved solution for problem 2660 in cpp
+2024-11-30 15:26:34,968 - INFO - Processing problem 2047...
+2024-11-30 15:26:34,968 - INFO - Generating solution for problem 2047 in python
+2024-11-30 15:26:34,969 - INFO - Making API call for problem 2047 in python (Attempt 1/5)
+2024-11-30 15:27:01,394 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:27:01,400 - INFO - Successfully saved solution for problem 2047 in python
+2024-11-30 15:27:06,401 - INFO - Generating solution for problem 2047 in java
+2024-11-30 15:27:06,401 - INFO - Making API call for problem 2047 in java (Attempt 1/5)
+2024-11-30 15:27:31,784 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:27:31,789 - INFO - Successfully saved solution for problem 2047 in java
+2024-11-30 15:27:36,790 - INFO - Generating solution for problem 2047 in cpp
+2024-11-30 15:27:36,790 - INFO - Making API call for problem 2047 in cpp (Attempt 1/5)
+2024-11-30 15:28:06,313 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:28:06,319 - INFO - Successfully saved solution for problem 2047 in cpp
+2024-11-30 15:28:11,319 - INFO - Processing problem 414...
+2024-11-30 15:28:11,319 - INFO - Generating solution for problem 414 in python
+2024-11-30 15:28:11,319 - INFO - Making API call for problem 414 in python (Attempt 1/5)
+2024-11-30 15:28:32,116 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:28:32,119 - INFO - Successfully saved solution for problem 414 in python
+2024-11-30 15:28:37,120 - INFO - Generating solution for problem 414 in java
+2024-11-30 15:28:37,121 - INFO - Making API call for problem 414 in java (Attempt 1/5)
+2024-11-30 15:29:04,894 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:29:04,898 - INFO - Successfully saved solution for problem 414 in java
+2024-11-30 15:29:09,900 - INFO - Generating solution for problem 414 in cpp
+2024-11-30 15:29:09,900 - INFO - Making API call for problem 414 in cpp (Attempt 1/5)
+2024-11-30 15:29:29,873 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:29:29,876 - INFO - Successfully saved solution for problem 414 in cpp
+2024-11-30 15:29:34,878 - INFO - Processing problem 2760...
+2024-11-30 15:29:34,878 - INFO - Generating solution for problem 2760 in python
+2024-11-30 15:29:34,878 - INFO - Making API call for problem 2760 in python (Attempt 1/5)
+2024-11-30 15:29:53,223 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:29:53,228 - INFO - Successfully saved solution for problem 2760 in python
+2024-11-30 15:29:58,229 - INFO - Generating solution for problem 2760 in java
+2024-11-30 15:29:58,230 - INFO - Making API call for problem 2760 in java (Attempt 1/5)
+2024-11-30 15:30:22,774 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:30:22,777 - INFO - Successfully saved solution for problem 2760 in java
+2024-11-30 15:30:27,778 - INFO - Generating solution for problem 2760 in cpp
+2024-11-30 15:30:27,778 - INFO - Making API call for problem 2760 in cpp (Attempt 1/5)
+2024-11-30 15:30:47,191 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:30:47,195 - INFO - Successfully saved solution for problem 2760 in cpp
+2024-11-30 15:30:52,196 - INFO - Processing problem 925...
+2024-11-30 15:30:52,196 - INFO - Generating solution for problem 925 in python
+2024-11-30 15:30:52,196 - INFO - Making API call for problem 925 in python (Attempt 1/5)
+2024-11-30 15:31:09,679 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:31:09,682 - INFO - Successfully saved solution for problem 925 in python
+2024-11-30 15:31:14,684 - INFO - Generating solution for problem 925 in java
+2024-11-30 15:31:14,684 - INFO - Making API call for problem 925 in java (Attempt 1/5)
+2024-11-30 15:31:35,580 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:31:35,584 - INFO - Successfully saved solution for problem 925 in java
+2024-11-30 15:31:40,586 - INFO - Generating solution for problem 925 in cpp
+2024-11-30 15:31:40,587 - INFO - Making API call for problem 925 in cpp (Attempt 1/5)
+2024-11-30 15:32:03,353 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:32:03,357 - INFO - Successfully saved solution for problem 925 in cpp
+2024-11-30 15:32:08,358 - INFO - Processing problem 2996...
+2024-11-30 15:32:08,358 - INFO - Generating solution for problem 2996 in python
+2024-11-30 15:32:08,358 - INFO - Making API call for problem 2996 in python (Attempt 1/5)
+2024-11-30 15:32:24,197 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:32:24,200 - INFO - Successfully saved solution for problem 2996 in python
+2024-11-30 15:32:29,200 - INFO - Generating solution for problem 2996 in java
+2024-11-30 15:32:29,200 - INFO - Making API call for problem 2996 in java (Attempt 1/5)
+2024-11-30 15:32:52,153 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:32:52,154 - INFO - Successfully saved solution for problem 2996 in java
+2024-11-30 15:32:57,156 - INFO - Generating solution for problem 2996 in cpp
+2024-11-30 15:32:57,156 - INFO - Making API call for problem 2996 in cpp (Attempt 1/5)
+2024-11-30 15:33:20,748 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:33:20,751 - INFO - Successfully saved solution for problem 2996 in cpp
+2024-11-30 15:33:25,752 - INFO - Processing problem 859...
+2024-11-30 15:33:25,752 - INFO - Generating solution for problem 859 in python
+2024-11-30 15:33:25,752 - INFO - Making API call for problem 859 in python (Attempt 1/5)
+2024-11-30 15:33:46,280 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:33:46,283 - INFO - Successfully saved solution for problem 859 in python
+2024-11-30 15:33:51,284 - INFO - Generating solution for problem 859 in java
+2024-11-30 15:33:51,284 - INFO - Making API call for problem 859 in java (Attempt 1/5)
+2024-11-30 15:34:19,653 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:34:19,657 - INFO - Successfully saved solution for problem 859 in java
+2024-11-30 15:34:24,657 - INFO - Generating solution for problem 859 in cpp
+2024-11-30 15:34:24,658 - INFO - Making API call for problem 859 in cpp (Attempt 1/5)
+2024-11-30 15:34:44,340 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:34:44,343 - INFO - Successfully saved solution for problem 859 in cpp
+2024-11-30 15:34:49,345 - INFO - 
+Processing completed:
+2024-11-30 15:34:49,346 - INFO - Successfully generated solutions: 30
+2024-11-30 15:34:49,346 - INFO - Failed solutions: 0
+2024-11-30 15:36:57,331 - INFO - Found 8 problems in the dataset
+2024-11-30 15:36:57,331 - INFO - Processing problem 3362...
+2024-11-30 15:36:57,332 - INFO - Generating solution for problem 3362 in python
+2024-11-30 15:36:57,332 - INFO - Making API call for problem 3362 in python (Attempt 1/5)
+2024-11-30 15:37:30,011 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:37:30,017 - INFO - Successfully saved solution for problem 3362 in python
+2024-11-30 15:37:35,018 - INFO - Generating solution for problem 3362 in java
+2024-11-30 15:37:35,018 - INFO - Making API call for problem 3362 in java (Attempt 1/5)
+2024-11-30 15:38:14,182 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:38:14,184 - INFO - Successfully saved solution for problem 3362 in java
+2024-11-30 15:38:19,186 - INFO - Generating solution for problem 3362 in cpp
+2024-11-30 15:38:19,186 - INFO - Making API call for problem 3362 in cpp (Attempt 1/5)
+2024-11-30 15:38:51,082 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:38:51,086 - INFO - Successfully saved solution for problem 3362 in cpp
+2024-11-30 15:38:56,087 - INFO - Processing problem 3234...
+2024-11-30 15:38:56,087 - INFO - Generating solution for problem 3234 in python
+2024-11-30 15:38:56,087 - INFO - Making API call for problem 3234 in python (Attempt 1/5)
+2024-11-30 15:39:12,244 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:39:12,247 - INFO - Successfully saved solution for problem 3234 in python
+2024-11-30 15:39:17,248 - INFO - Generating solution for problem 3234 in java
+2024-11-30 15:39:17,248 - INFO - Making API call for problem 3234 in java (Attempt 1/5)
+2024-11-30 15:39:42,863 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:39:42,865 - INFO - Successfully saved solution for problem 3234 in java
+2024-11-30 15:39:47,866 - INFO - Generating solution for problem 3234 in cpp
+2024-11-30 15:39:47,867 - INFO - Making API call for problem 3234 in cpp (Attempt 1/5)
+2024-11-30 15:40:04,512 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:40:04,515 - INFO - Successfully saved solution for problem 3234 in cpp
+2024-11-30 15:40:09,517 - INFO - Processing problem 3346...
+2024-11-30 15:40:09,517 - INFO - Generating solution for problem 3346 in python
+2024-11-30 15:40:09,517 - INFO - Making API call for problem 3346 in python (Attempt 1/5)
+2024-11-30 15:40:34,649 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:40:34,651 - INFO - Successfully saved solution for problem 3346 in python
+2024-11-30 15:40:39,652 - INFO - Generating solution for problem 3346 in java
+2024-11-30 15:40:39,652 - INFO - Making API call for problem 3346 in java (Attempt 1/5)
+2024-11-30 15:41:16,628 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:41:16,631 - INFO - Successfully saved solution for problem 3346 in java
+2024-11-30 15:41:21,632 - INFO - Generating solution for problem 3346 in cpp
+2024-11-30 15:41:21,632 - INFO - Making API call for problem 3346 in cpp (Attempt 1/5)
+2024-11-30 15:41:45,947 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:41:45,950 - INFO - Successfully saved solution for problem 3346 in cpp
+2024-11-30 15:41:50,951 - INFO - Processing problem 3291...
+2024-11-30 15:41:50,951 - INFO - Generating solution for problem 3291 in python
+2024-11-30 15:41:50,951 - INFO - Making API call for problem 3291 in python (Attempt 1/5)
+2024-11-30 15:42:12,720 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:42:12,723 - INFO - Successfully saved solution for problem 3291 in python
+2024-11-30 15:42:17,724 - INFO - Generating solution for problem 3291 in java
+2024-11-30 15:42:17,724 - INFO - Making API call for problem 3291 in java (Attempt 1/5)
+2024-11-30 15:42:17,952 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 529 "
+2024-11-30 15:42:17,952 - INFO - Retrying request to /v1/messages in 0.444876 seconds
+2024-11-30 15:42:51,167 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:42:51,170 - INFO - Successfully saved solution for problem 3291 in java
+2024-11-30 15:42:56,171 - INFO - Generating solution for problem 3291 in cpp
+2024-11-30 15:42:56,171 - INFO - Making API call for problem 3291 in cpp (Attempt 1/5)
+2024-11-30 15:43:21,775 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:43:21,778 - INFO - Successfully saved solution for problem 3291 in cpp
+2024-11-30 15:43:26,779 - INFO - Processing problem 3302...
+2024-11-30 15:43:26,779 - INFO - Generating solution for problem 3302 in python
+2024-11-30 15:43:26,779 - INFO - Making API call for problem 3302 in python (Attempt 1/5)
+2024-11-30 15:43:52,409 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:43:52,411 - INFO - Successfully saved solution for problem 3302 in python
+2024-11-30 15:43:57,412 - INFO - Generating solution for problem 3302 in java
+2024-11-30 15:43:57,412 - INFO - Making API call for problem 3302 in java (Attempt 1/5)
+2024-11-30 15:44:26,574 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:44:26,577 - INFO - Successfully saved solution for problem 3302 in java
+2024-11-30 15:44:31,578 - INFO - Generating solution for problem 3302 in cpp
+2024-11-30 15:44:31,578 - INFO - Making API call for problem 3302 in cpp (Attempt 1/5)
+2024-11-30 15:44:57,964 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:44:57,966 - INFO - Successfully saved solution for problem 3302 in cpp
+2024-11-30 15:45:02,967 - INFO - Processing problem 3026...
+2024-11-30 15:45:02,967 - INFO - Generating solution for problem 3026 in python
+2024-11-30 15:45:02,968 - INFO - Making API call for problem 3026 in python (Attempt 1/5)
+2024-11-30 15:45:23,472 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:45:23,474 - INFO - Successfully saved solution for problem 3026 in python
+2024-11-30 15:45:28,475 - INFO - Generating solution for problem 3026 in java
+2024-11-30 15:45:28,476 - INFO - Making API call for problem 3026 in java (Attempt 1/5)
+2024-11-30 15:45:59,433 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:45:59,434 - INFO - Successfully saved solution for problem 3026 in java
+2024-11-30 15:46:04,436 - INFO - Generating solution for problem 3026 in cpp
+2024-11-30 15:46:04,436 - INFO - Making API call for problem 3026 in cpp (Attempt 1/5)
+2024-11-30 15:46:30,900 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:46:30,903 - INFO - Successfully saved solution for problem 3026 in cpp
+2024-11-30 15:46:35,904 - INFO - Processing problem 3306...
+2024-11-30 15:46:35,904 - INFO - Generating solution for problem 3306 in python
+2024-11-30 15:46:35,904 - INFO - Making API call for problem 3306 in python (Attempt 1/5)
+2024-11-30 15:46:54,545 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:46:54,566 - INFO - Successfully saved solution for problem 3306 in python
+2024-11-30 15:46:59,567 - INFO - Generating solution for problem 3306 in java
+2024-11-30 15:46:59,567 - INFO - Making API call for problem 3306 in java (Attempt 1/5)
+2024-11-30 15:47:29,521 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:47:29,523 - INFO - Successfully saved solution for problem 3306 in java
+2024-11-30 15:47:34,524 - INFO - Generating solution for problem 3306 in cpp
+2024-11-30 15:47:34,524 - INFO - Making API call for problem 3306 in cpp (Attempt 1/5)
+2024-11-30 15:48:07,254 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:48:07,256 - INFO - Successfully saved solution for problem 3306 in cpp
+2024-11-30 15:48:12,257 - INFO - Processing problem 2967...
+2024-11-30 15:48:12,257 - INFO - Generating solution for problem 2967 in python
+2024-11-30 15:48:12,257 - INFO - Making API call for problem 2967 in python (Attempt 1/5)
+2024-11-30 15:48:35,444 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:48:35,447 - INFO - Successfully saved solution for problem 2967 in python
+2024-11-30 15:48:40,448 - INFO - Generating solution for problem 2967 in java
+2024-11-30 15:48:40,448 - INFO - Making API call for problem 2967 in java (Attempt 1/5)
+2024-11-30 15:49:20,504 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:49:20,506 - INFO - Successfully saved solution for problem 2967 in java
+2024-11-30 15:49:25,507 - INFO - Generating solution for problem 2967 in cpp
+2024-11-30 15:49:25,507 - INFO - Making API call for problem 2967 in cpp (Attempt 1/5)
+2024-11-30 15:49:46,953 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 15:49:46,955 - INFO - Successfully saved solution for problem 2967 in cpp
+2024-11-30 15:49:51,956 - INFO - 
+Processing completed:
+2024-11-30 15:49:51,956 - INFO - Successfully generated solutions: 24
+2024-11-30 15:49:51,956 - INFO - Failed solutions: 0
+2024-11-30 16:41:28,567 - INFO - Found 10 problems in the dataset
+2024-11-30 16:41:28,567 - INFO - Processing problem 3348...
+2024-11-30 16:41:28,567 - INFO - Generating solution for problem 3348 in python
+2024-11-30 16:41:28,567 - INFO - Making API call for problem 3348 in python (Attempt 1/5)
+2024-11-30 16:41:55,228 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:41:55,234 - INFO - Successfully saved solution for problem 3348 in python
+2024-11-30 16:42:00,235 - INFO - Generating solution for problem 3348 in java
+2024-11-30 16:42:00,236 - INFO - Making API call for problem 3348 in java (Attempt 1/5)
+2024-11-30 16:42:31,773 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:42:31,776 - INFO - Successfully saved solution for problem 3348 in java
+2024-11-30 16:42:36,778 - INFO - Generating solution for problem 3348 in cpp
+2024-11-30 16:42:36,778 - INFO - Making API call for problem 3348 in cpp (Attempt 1/5)
+2024-11-30 16:43:07,443 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:43:07,446 - INFO - Successfully saved solution for problem 3348 in cpp
+2024-11-30 16:43:12,447 - INFO - Processing problem 3266...
+2024-11-30 16:43:12,447 - INFO - Generating solution for problem 3266 in python
+2024-11-30 16:43:12,448 - INFO - Making API call for problem 3266 in python (Attempt 1/5)
+2024-11-30 16:43:40,312 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:43:40,316 - INFO - Successfully saved solution for problem 3266 in python
+2024-11-30 16:43:45,317 - INFO - Generating solution for problem 3266 in java
+2024-11-30 16:43:45,318 - INFO - Making API call for problem 3266 in java (Attempt 1/5)
+2024-11-30 16:44:11,319 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:44:11,323 - INFO - Successfully saved solution for problem 3266 in java
+2024-11-30 16:44:16,324 - INFO - Generating solution for problem 3266 in cpp
+2024-11-30 16:44:16,324 - INFO - Making API call for problem 3266 in cpp (Attempt 1/5)
+2024-11-30 16:44:42,549 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:44:42,552 - INFO - Successfully saved solution for problem 3266 in cpp
+2024-11-30 16:44:47,553 - INFO - Processing problem 3303...
+2024-11-30 16:44:47,553 - INFO - Generating solution for problem 3303 in python
+2024-11-30 16:44:47,553 - INFO - Making API call for problem 3303 in python (Attempt 1/5)
+2024-11-30 16:45:16,688 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:45:16,692 - INFO - Successfully saved solution for problem 3303 in python
+2024-11-30 16:45:21,693 - INFO - Generating solution for problem 3303 in java
+2024-11-30 16:45:21,693 - INFO - Making API call for problem 3303 in java (Attempt 1/5)
+2024-11-30 16:45:51,849 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:45:51,853 - INFO - Successfully saved solution for problem 3303 in java
+2024-11-30 16:45:56,855 - INFO - Generating solution for problem 3303 in cpp
+2024-11-30 16:45:56,855 - INFO - Making API call for problem 3303 in cpp (Attempt 1/5)
+2024-11-30 16:46:21,731 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:46:21,735 - INFO - Successfully saved solution for problem 3303 in cpp
+2024-11-30 16:46:26,736 - INFO - Processing problem 3357...
+2024-11-30 16:46:26,736 - INFO - Generating solution for problem 3357 in python
+2024-11-30 16:46:26,736 - INFO - Making API call for problem 3357 in python (Attempt 1/5)
+2024-11-30 16:46:59,996 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:46:59,999 - INFO - Successfully saved solution for problem 3357 in python
+2024-11-30 16:47:05,001 - INFO - Generating solution for problem 3357 in java
+2024-11-30 16:47:05,001 - INFO - Making API call for problem 3357 in java (Attempt 1/5)
+2024-11-30 16:47:39,115 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:47:39,118 - INFO - Successfully saved solution for problem 3357 in java
+2024-11-30 16:47:44,119 - INFO - Generating solution for problem 3357 in cpp
+2024-11-30 16:47:44,120 - INFO - Making API call for problem 3357 in cpp (Attempt 1/5)
+2024-11-30 16:48:09,793 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:48:09,795 - INFO - Successfully saved solution for problem 3357 in cpp
+2024-11-30 16:48:14,796 - INFO - Processing problem 420...
+2024-11-30 16:48:14,797 - INFO - Generating solution for problem 420 in python
+2024-11-30 16:48:14,797 - INFO - Making API call for problem 420 in python (Attempt 1/5)
+2024-11-30 16:48:46,344 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:48:46,348 - INFO - Successfully saved solution for problem 420 in python
+2024-11-30 16:48:51,350 - INFO - Generating solution for problem 420 in java
+2024-11-30 16:48:51,350 - INFO - Making API call for problem 420 in java (Attempt 1/5)
+2024-11-30 16:49:26,576 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:49:26,580 - INFO - Successfully saved solution for problem 420 in java
+2024-11-30 16:49:31,581 - INFO - Generating solution for problem 420 in cpp
+2024-11-30 16:49:31,581 - INFO - Making API call for problem 420 in cpp (Attempt 1/5)
+2024-11-30 16:50:08,221 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:50:08,225 - INFO - Successfully saved solution for problem 420 in cpp
+2024-11-30 16:50:13,225 - INFO - Processing problem 3333...
+2024-11-30 16:50:13,226 - INFO - Generating solution for problem 3333 in python
+2024-11-30 16:50:13,226 - INFO - Making API call for problem 3333 in python (Attempt 1/5)
+2024-11-30 16:50:37,707 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:50:37,718 - INFO - Successfully saved solution for problem 3333 in python
+2024-11-30 16:50:42,719 - INFO - Generating solution for problem 3333 in java
+2024-11-30 16:50:42,719 - INFO - Making API call for problem 3333 in java (Attempt 1/5)
+2024-11-30 16:51:10,717 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:51:10,720 - INFO - Successfully saved solution for problem 3333 in java
+2024-11-30 16:51:15,721 - INFO - Generating solution for problem 3333 in cpp
+2024-11-30 16:51:15,722 - INFO - Making API call for problem 3333 in cpp (Attempt 1/5)
+2024-11-30 16:51:46,282 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:51:46,285 - INFO - Successfully saved solution for problem 3333 in cpp
+2024-11-30 16:51:51,286 - INFO - Processing problem 3343...
+2024-11-30 16:51:51,287 - INFO - Generating solution for problem 3343 in python
+2024-11-30 16:51:51,287 - INFO - Making API call for problem 3343 in python (Attempt 1/5)
+2024-11-30 16:52:24,816 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:52:24,820 - INFO - Successfully saved solution for problem 3343 in python
+2024-11-30 16:52:29,821 - INFO - Generating solution for problem 3343 in java
+2024-11-30 16:52:29,822 - INFO - Making API call for problem 3343 in java (Attempt 1/5)
+2024-11-30 16:53:19,339 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:53:19,341 - INFO - Successfully saved solution for problem 3343 in java
+2024-11-30 16:53:24,342 - INFO - Generating solution for problem 3343 in cpp
+2024-11-30 16:53:24,342 - INFO - Making API call for problem 3343 in cpp (Attempt 1/5)
+2024-11-30 16:54:05,776 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:54:05,780 - INFO - Successfully saved solution for problem 3343 in cpp
+2024-11-30 16:54:10,781 - INFO - Processing problem 3260...
+2024-11-30 16:54:10,782 - INFO - Generating solution for problem 3260 in python
+2024-11-30 16:54:10,782 - INFO - Making API call for problem 3260 in python (Attempt 1/5)
+2024-11-30 16:54:37,950 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:54:37,952 - INFO - Successfully saved solution for problem 3260 in python
+2024-11-30 16:54:42,953 - INFO - Generating solution for problem 3260 in java
+2024-11-30 16:54:42,954 - INFO - Making API call for problem 3260 in java (Attempt 1/5)
+2024-11-30 16:55:22,635 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:55:22,639 - INFO - Successfully saved solution for problem 3260 in java
+2024-11-30 16:55:27,640 - INFO - Generating solution for problem 3260 in cpp
+2024-11-30 16:55:27,640 - INFO - Making API call for problem 3260 in cpp (Attempt 1/5)
+2024-11-30 16:56:06,795 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:56:06,801 - INFO - Successfully saved solution for problem 3260 in cpp
+2024-11-30 16:56:11,802 - INFO - Processing problem 3321...
+2024-11-30 16:56:11,803 - INFO - Generating solution for problem 3321 in python
+2024-11-30 16:56:11,803 - INFO - Making API call for problem 3321 in python (Attempt 1/5)
+2024-11-30 16:56:42,218 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:56:42,221 - INFO - Successfully saved solution for problem 3321 in python
+2024-11-30 16:56:47,221 - INFO - Generating solution for problem 3321 in java
+2024-11-30 16:56:47,221 - INFO - Making API call for problem 3321 in java (Attempt 1/5)
+2024-11-30 16:57:19,948 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:57:19,952 - INFO - Successfully saved solution for problem 3321 in java
+2024-11-30 16:57:24,954 - INFO - Generating solution for problem 3321 in cpp
+2024-11-30 16:57:24,954 - INFO - Making API call for problem 3321 in cpp (Attempt 1/5)
+2024-11-30 16:57:53,588 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:57:53,592 - INFO - Successfully saved solution for problem 3321 in cpp
+2024-11-30 16:57:58,593 - INFO - Processing problem 3288...
+2024-11-30 16:57:58,594 - INFO - Generating solution for problem 3288 in python
+2024-11-30 16:57:58,594 - INFO - Making API call for problem 3288 in python (Attempt 1/5)
+2024-11-30 16:58:25,816 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:58:25,819 - INFO - Successfully saved solution for problem 3288 in python
+2024-11-30 16:58:30,820 - INFO - Generating solution for problem 3288 in java
+2024-11-30 16:58:30,821 - INFO - Making API call for problem 3288 in java (Attempt 1/5)
+2024-11-30 16:58:58,655 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:58:58,658 - INFO - Successfully saved solution for problem 3288 in java
+2024-11-30 16:59:03,659 - INFO - Generating solution for problem 3288 in cpp
+2024-11-30 16:59:03,660 - INFO - Making API call for problem 3288 in cpp (Attempt 1/5)
+2024-11-30 16:59:26,919 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 16:59:26,922 - INFO - Successfully saved solution for problem 3288 in cpp
+2024-11-30 16:59:31,923 - INFO - 
+Processing completed:
+2024-11-30 16:59:31,923 - INFO - Successfully generated solutions: 30
+2024-11-30 16:59:31,923 - INFO - Failed solutions: 0
+2024-11-30 17:44:30,608 - INFO - Found 2 problems in the dataset
+2024-11-30 17:44:30,608 - INFO - Processing problem 8...
+2024-11-30 17:44:30,608 - INFO - Generating solution for problem 8 in python
+2024-11-30 17:44:30,608 - INFO - Making API call for problem 8 in python (Attempt 1/5)
+2024-11-30 17:44:53,397 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 17:44:53,406 - INFO - Successfully saved solution for problem 8 in python
+2024-11-30 17:44:58,407 - INFO - Generating solution for problem 8 in java
+2024-11-30 17:44:58,407 - INFO - Making API call for problem 8 in java (Attempt 1/5)
+2024-11-30 17:45:24,258 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 17:45:24,263 - INFO - Successfully saved solution for problem 8 in java
+2024-11-30 17:45:29,263 - INFO - Generating solution for problem 8 in cpp
+2024-11-30 17:45:29,263 - INFO - Making API call for problem 8 in cpp (Attempt 1/5)
+2024-11-30 17:45:54,466 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 17:45:54,471 - INFO - Successfully saved solution for problem 8 in cpp
+2024-11-30 17:45:59,473 - INFO - Processing problem 29...
+2024-11-30 17:45:59,473 - INFO - Generating solution for problem 29 in python
+2024-11-30 17:45:59,473 - INFO - Making API call for problem 29 in python (Attempt 1/5)
+2024-11-30 17:46:13,000 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 17:46:13,003 - INFO - Successfully saved solution for problem 29 in python
+2024-11-30 17:46:18,003 - INFO - Generating solution for problem 29 in java
+2024-11-30 17:46:18,003 - INFO - Making API call for problem 29 in java (Attempt 1/5)
+2024-11-30 17:46:42,085 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 17:46:42,090 - INFO - Successfully saved solution for problem 29 in java
+2024-11-30 17:46:47,091 - INFO - Generating solution for problem 29 in cpp
+2024-11-30 17:46:47,091 - INFO - Making API call for problem 29 in cpp (Attempt 1/5)
+2024-11-30 17:47:09,740 - INFO - HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2024-11-30 17:47:09,745 - INFO - Successfully saved solution for problem 29 in cpp
+2024-11-30 17:47:14,746 - INFO - 
+Processing completed:
+2024-11-30 17:47:14,747 - INFO - Successfully generated solutions: 6
+2024-11-30 17:47:14,747 - INFO - Failed solutions: 0

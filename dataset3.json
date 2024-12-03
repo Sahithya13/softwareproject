@@ -1,0 +1,320 @@
+{
+    "problems": [
+        {
+            "number": 3348,
+            "title": "Smallest Divisible Digit Product II",
+            "difficulty": "Medium",
+            "description": "You are given a string num which represents a positive integer, and an integer t. A number is called zero-free if none of its digits are 0. Return a string representing the smallest zero-free number greater than or equal to num such that the product of its digits is divisible by t. If no such number exists, return \"-1\".",
+            "examples": [
+              {
+                "input": "num = \"1234\", t = 256",
+                "output": "\"1488\"",
+                "explanation": "The smallest zero-free number that is greater than 1234 and has the product of its digits divisible by 256 is 1488, with the product of its digits equal to 256."
+              },
+              {
+                "input": "num = \"12355\", t = 50",
+                "output": "\"12355\"",
+                "explanation": "12355 is already zero-free and has the product of its digits divisible by 50, with the product of its digits equal to 150."
+              },
+              {
+                "input": "num = \"11111\", t = 26",
+                "output": "\"-1\"",
+                "explanation": "No number greater than 11111 has the product of its digits divisible by 26."
+              }
+            ],
+            "constraints": [
+              "2 <= num.length <= 2 * 10^5",
+              "num consists only of digits in the range ['0', '9']",
+              "num does not contain leading zeros",
+              "1 <= t <= 10^14"
+            ],
+            "function_signatures": {
+              "python": "def smallestNumber(self, num: str, t: int) -> str:",
+              "java": "public String smallestNumber(String num, long t)",
+              "cpp": "string smallestNumber(string num, long long t)"
+            }
+          },
+          {
+            "number": 3266,
+            "title": "Final Array State After K Multiplication Operations II",
+            "difficulty": "Medium",
+            "description": "You are given an integer array nums and an integer k. In each operation: Find the minimum value x in nums. If there are multiple occurrences of the minimum value, select the one that appears first. Replace the selected minimum value x with x * multiplier. After the k operations, apply modulo 10^9 + 7 to every value in nums. Return an integer array denoting the final state of nums after performing all k operations and then applying the modulo.",
+            "examples": [
+              {
+                "input": "nums = [2,1,3,5,6], k = 5, multiplier = 2",
+                "output": "[8,4,6,5,6]",
+                "explanation": "Operation steps: After operation 1: [2,2,3,5,6], After operation 2: [4,2,3,5,6], After operation 3: [4,4,3,5,6], After operation 4: [4,4,6,5,6], After operation 5: [8,4,6,5,6], After applying modulo: [8,4,6,5,6]"
+              },
+              {
+                "input": "nums = [100000,2000], k = 2, multiplier = 1000000",
+                "output": "[999999307,999999993]",
+                "explanation": "After operation 1: [100000, 2000000000], After operation 2: [100000000000, 2000000000], After applying modulo: [999999307, 999999993]"
+              }
+            ],
+            "constraints": [
+              "1 <= nums.length <= 10^4",
+              "1 <= nums[i] <= 10^9",
+              "1 <= k <= 10^9",
+              "1 <= multiplier <= 10^6"
+            ],
+            "function_signatures": {
+              "python": "def getFinalState(self, nums: List[int], k: int, multiplier: int) -> List[int]:",
+              "java": "public int[] getFinalState(int[] nums, int k, int multiplier)",
+              "cpp": "vector<int> getFinalState(vector<int>& nums, int k, int multiplier)"
+            }
+          },
+          {
+            "number": 3303,
+            "title": "Find the Occurrence of First Almost Equal Substring",
+            "difficulty": "Hard",
+            "description": "You are given two strings s and pattern. A string x is called almost equal to y if you can change at most one character in x to make it identical to y. Return the smallest starting index of a substring in s that is almost equal to pattern. If no such index exists, return -1. A substring is a contiguous non-empty sequence of characters within a string.",
+            "examples": [
+              {
+                "input": "s = \"abcdefg\", pattern = \"bcdffg\"",
+                "output": "1",
+                "explanation": "The substring s[1..6] == \"bcdefg\" can be converted to \"bcdffg\" by changing s[4] to \"f\"."
+              },
+              {
+                "input": "s = \"ababbababa\", pattern = \"bacaba\"",
+                "output": "4",
+                "explanation": "The substring s[4..9] == \"bababa\" can be converted to \"bacaba\" by changing s[6] to \"c\"."
+              },
+              {
+                "input": "s = \"abcd\", pattern = \"dba\"",
+                "output": "-1",
+                "explanation": "No substring can be converted to match the pattern."
+              }
+            ],
+            "constraints": [
+              "1 <= pattern.length < s.length <= 10^5",
+              "s and pattern consist only of lowercase English letters"
+            ],
+            "function_signatures": {
+              "python": "def minStartingIndex(self, s: str, pattern: str) -> int:",
+              "java": "public int minStartingIndex(String s, String pattern)",
+              "cpp": "int minStartingIndex(string s, string pattern)"
+            }
+          },
+          {
+            "number": 3357,
+            "title": "Minimize the Maximum Adjacent Element Difference",
+            "difficulty": "Hard",
+            "description": "You are given an array of integers nums. Some values in nums are missing and are denoted by -1. You can choose a pair of positive integers (x, y) exactly once and replace each missing element with either x or y. You need to minimize the maximum absolute difference between adjacent elements of nums after replacements. Return the minimum possible difference.",
+            "examples": [
+              {
+                "input": "nums = [1,2,-1,10,8]",
+                "output": "4",
+                "explanation": "By choosing the pair as (6, 7), nums can be changed to [1, 2, 6, 10, 8]. The absolute differences between adjacent elements are: |1 - 2| == 1, |2 - 6| == 4, |6 - 10| == 4, |10 - 8| == 2"
+              },
+              {
+                "input": "nums = [-1,-1,-1]",
+                "output": "0",
+                "explanation": "By choosing the pair as (4, 4), nums can be changed to [4, 4, 4]."
+              },
+              {
+                "input": "nums = [-1,10,-1,8]",
+                "output": "1",
+                "explanation": "By choosing the pair as (11, 9), nums can be changed to [11, 10, 9, 8]."
+              }
+            ],
+            "constraints": [
+              "2 <= nums.length <= 10^5",
+              "nums[i] is either -1 or in the range [1, 10^9]"
+            ],
+            "function_signatures": {
+              "python": "def minDifference(self, nums: List[int]) -> int:",
+              "java": "public int minDifference(int[] nums)",
+              "cpp": "int minDifference(vector<int>& nums)"
+            }
+          },
+          {
+            "number": 420,
+            "title": "Strong Password Checker",
+            "difficulty": "Hard",
+            "description": "A password is considered strong if it meets all criteria: It has at least 6 characters and at most 20 characters, contains at least one lowercase letter, one uppercase letter, and one digit, and does not contain three repeating characters in a row. Given a string password, return the minimum number of steps required to make password strong. If password is already strong, return 0. In one step, you can: Insert one character, Delete one character, or Replace one character with another character.",
+            "examples": [
+              {
+                "input": "password = \"a\"",
+                "output": "5",
+                "explanation": "Need to add characters to meet minimum length and required character types."
+              },
+              {
+                "input": "password = \"aA1\"",
+                "output": "3",
+                "explanation": "Need to add three more characters to meet minimum length requirement."
+              },
+              {
+                "input": "password = \"1337C0d3\"",
+                "output": "0",
+                "explanation": "The password is already strong."
+              }
+            ],
+            "constraints": [
+              "1 <= password.length <= 50",
+              "password consists of letters, digits, dot '.' or exclamation mark '!'"
+            ],
+            "function_signatures": {
+              "python": "def strongPasswordChecker(self, password: str) -> int:",
+              "java": "public int strongPasswordChecker(String password)",
+              "cpp": "int strongPasswordChecker(string password)"
+            }
+          },
+          {
+            "number": 3333,
+            "title": "Find the Original Typed String II",
+            "difficulty": "Hard",
+            "description": "Alice is attempting to type a specific string on her computer. However, she tends to be clumsy and may press a key for too long, resulting in a character being typed multiple times. You are given a string word, which represents the final output displayed on Alice's screen. You are also given a positive integer k. Return the total number of possible original strings that Alice might have intended to type, if she was trying to type a string of size at least k. Since the answer may be very large, return it modulo 10^9 + 7.",
+            "examples": [
+              {
+                "input": "word = \"aabbccdd\", k = 7",
+                "output": "5",
+                "explanation": "The possible strings are: \"aabbccdd\", \"aabbccd\", \"aabbcdd\", \"aabccdd\", and \"abbccdd\"."
+              },
+              {
+                "input": "word = \"aabbccdd\", k = 8",
+                "output": "1",
+                "explanation": "The only possible string is \"aabbccdd\"."
+              },
+              {
+                "input": "word = \"aaabbb\", k = 3",
+                "output": "8",
+                "explanation": "There are 8 possible original strings of length at least 3."
+              }
+            ],
+            "constraints": [
+              "1 <= word.length <= 5 * 10^5",
+              "word consists only of lowercase English letters",
+              "1 <= k <= 2000"
+            ],
+            "function_signatures": {
+              "python": "def possibleStringCount(self, word: str, k: int) -> int:",
+              "java": "public int possibleStringCount(String word, int k)",
+              "cpp": "int possibleStringCount(string word, int k)"
+            }
+          },
+          {
+            "number": 3343,
+            "title": "Count Number of Balanced Permutations",
+            "difficulty": "Hard",
+            "description": "You are given a string num. A string of digits is called balanced if the sum of the digits at even indices is equal to the sum of the digits at odd indices. Return the number of distinct permutations of num that are balanced. Since the answer may be very large, return it modulo 10^9 + 7. A permutation is a rearrangement of all the characters of a string.",
+            "examples": [
+              {
+                "input": "num = \"123\"",
+                "output": "2",
+                "explanation": "The distinct permutations of num are \"123\", \"132\", \"213\", \"231\", \"312\" and \"321\". Among them, \"132\" and \"231\" are balanced. Thus, the answer is 2."
+              },
+              {
+                "input": "num = \"112\"",
+                "output": "1",
+                "explanation": "The distinct permutations of num are \"112\", \"121\", and \"211\". Only \"121\" is balanced. Thus, the answer is 1."
+              },
+              {
+                "input": "num = \"12345\"",
+                "output": "0",
+                "explanation": "None of the permutations of num are balanced, so the answer is 0."
+              }
+            ],
+            "constraints": [
+              "2 <= num.length <= 80",
+              "num consists of digits '0' to '9' only"
+            ],
+            "function_signatures": {
+              "python": "def countBalancedPermutations(self, num: str) -> int:",
+              "java": "public int countBalancedPermutations(String num)",
+              "cpp": "int countBalancedPermutations(string num)"
+            }
+          },
+          {
+            "number": 3260,
+            "title": "Find the Largest Palindrome Divisible by K",
+            "difficulty": "Hard",
+            "description": "You are given two positive integers n and k. An integer x is called k-palindromic if: x is a palindrome, and x is divisible by k. Return the largest integer having n digits (as a string) that is k-palindromic. Note that the integer must not have leading zeros.",
+            "examples": [
+              {
+                "input": "n = 3, k = 5",
+                "output": "\"595\"",
+                "explanation": "595 is the largest k-palindromic integer with 3 digits."
+              },
+              {
+                "input": "n = 1, k = 4",
+                "output": "\"8\"",
+                "explanation": "4 and 8 are the only k-palindromic integers with 1 digit."
+              },
+              {
+                "input": "n = 5, k = 6",
+                "output": "\"89898\"",
+                "explanation": "This is the largest 5-digit number that is both palindromic and divisible by 6."
+              }
+            ],
+            "constraints": [
+              "1 <= n <= 10^5",
+              "1 <= k <= 9"
+            ],
+            "function_signatures": {
+              "python": "def largestPalindrome(self, n: int, k: int) -> str:",
+              "java": "public String largestPalindrome(int n, int k)",
+              "cpp": "string largestPalindrome(int n, int k)"
+            }
+          },
+          {
+            "number": 3321,
+            "title": "Find X-Sum of All K-Long Subarrays II",
+            "difficulty": "Hard",
+            "description": "You are given an array nums of n integers and two integers k and x. The x-sum of an array is calculated by counting the occurrences of all elements, keeping only the occurrences of the top x most frequent elements (if two elements have the same number of occurrences, the element with the bigger value is considered more frequent), and calculating the sum of the resulting array. Return an integer array answer of length n - k + 1 where answer[i] is the x-sum of the subarray nums[i..i + k - 1].",
+            "examples": [
+              {
+                "input": "nums = [1,1,2,2,3,4,2,3], k = 6, x = 2",
+                "output": "[6,10,12]",
+                "explanation": "For first subarray [1,1,2,2,3,4], only elements 1 and 2 will be kept. Hence, answer[0] = 1 + 1 + 2 + 2. For second subarray [1,2,2,3,4,2], only elements 2 and 4 will be kept. Hence, answer[1] = 2 + 2 + 2 + 4. For third subarray [2,2,3,4,2,3], only elements 2 and 3 are kept. Hence, answer[2] = 2 + 2 + 2 + 3 + 3."
+              },
+              {
+                "input": "nums = [3,8,7,8,7,5], k = 2, x = 2",
+                "output": "[11,15,15,15,12]",
+                "explanation": "Since k == x, answer[i] is equal to the sum of the subarray nums[i..i + k - 1]."
+              }
+            ],
+            "constraints": [
+              "nums.length == n",
+              "1 <= n <= 10^5",
+              "1 <= nums[i] <= 10^9",
+              "1 <= x <= k <= nums.length"
+            ],
+            "function_signatures": {
+              "python": "def findXSum(self, nums: List[int], k: int, x: int) -> List[int]:",
+              "java": "public long[] findXSum(int[] nums, int k, int x)",
+              "cpp": "vector<long long> findXSum(vector<int>& nums, int k, int x)"
+            }
+          },
+          {
+            "number": 3288,
+            "title": "Length of the Longest Increasing Path",
+            "difficulty": "Hard",
+            "description": "You are given a 2D array of integers coordinates of length n and an integer k, where 0 <= k < n. coordinates[i] = [xi, yi] indicates the point (xi, yi) in a 2D plane. An increasing path of length m is defined as a list of points (x1, y1), (x2, y2), (x3, y3), ..., (xm, ym) such that: xi < xi+1 and yi < yi+1 for all i where 1 <= i < m, and (xi, yi) is in the given coordinates for all i where 1 <= i <= m. Return the maximum length of an increasing path that contains coordinates[k].",
+            "examples": [
+              {
+                "input": "coordinates = [[3,1],[2,2],[4,1],[0,0],[5,3]], k = 1",
+                "output": "3",
+                "explanation": "(0, 0), (2, 2), (5, 3) is the longest increasing path that contains (2, 2)."
+              },
+              {
+                "input": "coordinates = [[2,1],[7,0],[5,6]], k = 2",
+                "output": "2",
+                "explanation": "(2, 1), (5, 6) is the longest increasing path that contains (5, 6)."
+              }
+            ],
+            "constraints": [
+              "1 <= n == coordinates.length <= 10^5",
+              "coordinates[i].length == 2",
+              "0 <= coordinates[i][0], coordinates[i][1] <= 10^9",
+              "All elements in coordinates are distinct",
+              "0 <= k <= n - 1"
+            ],
+            "function_signatures": {
+              "python": "def maxPathLength(self, coordinates: List[List[int]], k: int) -> int:",
+              "java": "public int maxPathLength(int[][] coordinates, int k)",
+              "cpp": "int maxPathLength(vector<vector<int>>& coordinates, int k)"
+            }
+          }
+          
+        ]
+      }
